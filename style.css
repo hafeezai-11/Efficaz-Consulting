@@ -1,0 +1,98 @@
+body{
+    background-color: rgba(15, 1, 1, 0.883);
+    background-size: cover;
+    
+}
+.hd{
+    background-color: black;
+    height: auto;
+    padding-top: 12px;
+    border-radius: 20px;
+    padding-bottom: 12px;
+    
+    
+}
+.hd > a{
+    text-decoration: none;
+    padding-left: 75px;
+    text-align: center;
+    color: blueviolet;
+    padding-top: 5px;
+    font-size: 25px;
+    position: relative;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.hd_link:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+}
+#abt{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    line-height: 26px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 25px;
+}
+.con{
+    /* display: grid;
+    grid-template-columns: auto auto auto; */
+    margin-top: 50px;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 25px;
+}
+
+#ehs,#bus,#cli,#ind{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    line-height: 26px;
+    font-size: 25px;
+    font-family: 'Patrick Hand', cursive;
+}
+.gap{
+    background-color: aqua;
+}
+#im{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      width: 200px;
+      border-radius: 50px;
+      border: 3px solid black;
+}
+.styl{
+    font-size:20px; 
+    font-weight:600;
+}
+#intro_2{
+    text-align: center;
+}
+#vide{
+    border-radius: 10px;
+    border: 3px solid whitesmoke;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  .content {
+    padding: 16px;
+  }
+  .sticky + .content {
+    padding-top: 102px;
+  }
