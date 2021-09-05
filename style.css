@@ -96,3 +96,6 @@ body{
   .sticky + .content {
     padding-top: 102px;
   }
+#m{
+    width: 300px
+  }
